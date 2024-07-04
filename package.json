@@ -1,0 +1,36 @@
+{
+  "name": "byte",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "icmecodes / icmedev <icmedev@gmail.com>",
+  "scripts": {
+    "build": "robo build",
+    "deploy": "robo deploy",
+    "dev": "robox dev",
+    "doctor": "sage doctor",
+    "invite": "robo invite",
+    "lint": "pnpm lint:eslint && pnpm lint:style",
+    "lint:eslint": "eslint -c config/eslint.mjs .",
+    "lint:style": "prettier --write .",
+    "start": "robo start",
+    "upgrade": "sage upgrade"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "robo.js": "^0.10.9",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@swc/core": "^1.6.5",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.14.8",
+    "eslint": "9",
+    "globals": "^15.6.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.13.1"
+  }
+}

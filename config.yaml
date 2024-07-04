@@ -1,0 +1,6 @@
+support_server: ''
+api_token: ''
+
+command_logger:
+  enabled: false
+  webhook: ''
